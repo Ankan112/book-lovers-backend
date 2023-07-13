@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\practice-project\\backend-starter-code\\logs\\winston\\successes\\.5d25912986d70da5fd700b45f50efb6ffbb15ecd-audit.json",
+    "files": [
+        {
+            "date": 1689159522285,
+            "name": "D:\\practice-project\\backend-starter-code\\logs\\winston\\successes\\2023-12-07-16-success.log",
+            "hash": "08fe4c23fbcb5d6b2725a592ff8e29a83f475112ca3aebc5897f9bca25f05a48"
+        },
+        {
+            "date": 1689236119125,
+            "name": "D:\\practice-project\\backend-starter-code\\logs\\winston\\successes\\2023-13-07-14-success.log",
+            "hash": "d8ddde43ca8fda36f7815ead17a12718ec31fa87557d9a86bebfa29efda65815"
+        }
+    ],
+    "hashType": "sha256"
+}

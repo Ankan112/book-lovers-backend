@@ -14,7 +14,7 @@ app.use('/api/v1/users', UserRouters.router)
 
 //testing route
 app.get('/', (req: Request, res: Response) => {
-  res.send('Server running successfully')
+  res.send('Server is running successfully')
 })
 
 export default app
