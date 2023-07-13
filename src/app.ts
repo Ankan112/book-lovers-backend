@@ -1,6 +1,7 @@
-import express, { Application, Request, Response } from 'express'
+import express, { Application } from 'express'
 import cors from 'cors'
 import { UserRouters } from './app/modules/user/user.route'
+import globalErrorHandler from './app/middleware/globalErrorHandler'
 const app: Application = express()
 
 app.use(cors())
@@ -12,9 +13,12 @@ app.use(express.urlencoded({ extended: true }))
 //application routes
 app.use('/api/v1/users', UserRouters.router)
 
-//testing route
-app.get('/', (req: Request, res: Response) => {
-  res.send('Server is running successfully')
+// testing route
+app.get('/', (req, res) => {
+  res.send('Sever in running successfully')
 })
+
+//global error handler
+app.use(globalErrorHandler)
 
 export default app

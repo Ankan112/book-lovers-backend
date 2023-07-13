@@ -14,6 +14,26 @@
             "date": 1689236119569,
             "name": "D:\\practice-project\\backend-starter-code\\logs\\winston\\errors\\2023-13-07-14-error.log",
             "hash": "c90f3d448c05a3d1ed23b60caca8e8fdc8d730711ded2a57d3590a89fe09a3d7"
+        },
+        {
+            "date": 1689241977644,
+            "name": "D:\\practice-project\\backend-starter-code\\logs\\winston\\errors\\2023-13-07-15-error.log",
+            "hash": "a8965ab4963465ed3f39dad942eab073589cbc3d790a9f510de8cf67dde2633c"
+        },
+        {
+            "date": 1689242595441,
+            "name": "D:\\practice-project\\backend-starter-code\\logs\\winston\\errors\\2023-13-07-16-error.log",
+            "hash": "393a558b8efb76d5660b6749ab1cfc2cc1ce54faf1112b388251aea30553bcbe"
+        },
+        {
+            "date": 1689246880601,
+            "name": "D:\\practice-project\\backend-starter-code\\logs\\winston\\errors\\2023-13-07-17-error.log",
+            "hash": "8c35e7a543819f29d2e9bf4578ffd68c6d2eefc21eb216556a42aed593e22772"
+        },
+        {
+            "date": 1689249628582,
+            "name": "D:\\practice-project\\backend-starter-code\\logs\\winston\\errors\\2023-13-07-18-error.log",
+            "hash": "d7c6fb626d70a6304e6ce6bb4fad84c826a4dd7e1b2fa2dea99fef4cb1ac6dcf"
         }
     ],
     "hashType": "sha256"
