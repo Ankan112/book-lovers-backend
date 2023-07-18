@@ -39,8 +39,49 @@ const getSingleBook: RequestHandler = catchAsync(async (req, res) => {
   })
 })
 
+const deleteBook: RequestHandler = catchAsync(async (req, res) => {
+  const id = req.params.id
+  const result = await BookService.deleteBook(id)
+
+  sendResponse(res, {
+    statusCode: 200,
+    success: true,
+    message: 'Book deleted successfully',
+    data: result,
+  })
+})
+
+const updateBook: RequestHandler = catchAsync(async (req, res) => {
+  const id = req.params.id
+  const payload = req.body
+  const result = await BookService.updateBook(id, payload)
+
+  sendResponse<IBook>(res, {
+    statusCode: 200,
+    success: true,
+    message: 'Book update successfully',
+    data: result,
+  })
+})
+
+const postReview: RequestHandler = catchAsync(async (req, res) => {
+  const id = req.params.id
+  const payload = req.body.review
+  const result = await BookService.postReview(id, payload)
+
+  sendResponse<IBook>(res, {
+    statusCode: 200,
+    success: true,
+    message: 'Review added successfully',
+    data: result,
+  })
+})
+
 export const BookController = {
   createNewBook,
   getAllBooks,
   getSingleBook,
+  deleteBook,
+  updateBook,
+  postReview,
 }
